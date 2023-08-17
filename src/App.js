@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import './App.css';
+import GoogleLoginButton from "./GoogleLoginButton";
 
 export default function App() {
     const [globalCount, setGlobalCount] = useState(0);
@@ -10,6 +11,8 @@ export default function App() {
 
     return (
         <>
+            <GoogleLoginButton/>
+
             <div>
                 <h1>Welcome to my app</h1>
                 <MyButton1/>
