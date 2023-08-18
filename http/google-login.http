@@ -1,0 +1,3 @@
+### id_token google에 검증
+GET https://oauth2.googleapis.com/tokeninfo?id_token=
+Accept: application/json
